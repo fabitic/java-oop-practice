@@ -2,7 +2,7 @@ public class Coche {
 
     private String marca;
     private int velocidad;
-
+// Clase que representa un coche con marca y velocidad
     public Coche(String marca) {
         this.marca = marca;
         this.velocidad = 0;
