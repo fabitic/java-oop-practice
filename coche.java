@@ -12,7 +12,10 @@ public class coche {
         velocidad += 10;
         System.out.println(marca + " va a " + velocidad + " km/h");
     }
-
+    public void frenar() {
+        velocidad -= 10;
+        System.out.println(marca + " va a " + velocidad + " km/h");
+    }
     public static void main(String[] args) {
         coche coche = new coche("Seat");
         coche.acelerar();
